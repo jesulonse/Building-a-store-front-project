@@ -41,7 +41,7 @@ it("product price created", async () => {
   expect(productCreated.price).toEqual(10);
 });
 
-it("product index method resturns a list of products", async () => {
+it("product index method returns a list of products", async () => {
   const productIndexList = await store.index();
   expect(productIndexList.length).toEqual(2);
 });
