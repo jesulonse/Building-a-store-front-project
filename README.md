@@ -44,9 +44,9 @@ db-migrate up
 ## Testing
 
 run the following command:
-npm run test
+npm test
 
 ## Running the server
 
 run the following command:
-npm run start
+npm start
